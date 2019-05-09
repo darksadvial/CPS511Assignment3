@@ -1,0 +1,5 @@
+﻿  ViewFormGL.cpp
+c:\users\karl\documents\cps511\matrixprojection\matrixprojection\src\controls.h(74): warning C4996: 'wcsncpy': This function or variable may be unsafe. Consider using wcsncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\corecrt_wstring.h(205): note: see declaration of 'wcsncpy'
+c:\users\karl\documents\cps511\matrixprojection\matrixprojection\src\viewformgl.cpp(117): error C2664: 'void Win::ControlBase::setFont(wchar_t *,int,bool,bool,bool,unsigned char)': cannot convert argument 1 from 'const wchar_t [12]' to 'wchar_t *'
+  c:\users\karl\documents\cps511\matrixprojection\matrixprojection\src\viewformgl.cpp(117): note: Conversion from string literal loses const qualifier (see /Zc:strictStrings)
